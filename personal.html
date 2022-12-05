@@ -5,35 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
+    <link href="dist/css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>travel page</title>
+    <title>personal page</title>
 </head>
 <body>
     <header>
         <div class="skip"><a href="#skip">Skip to Main Content</a></div>
         <nav>
             <ul>
-                <li><a href ="index.html">travel</a></li> 
-                <li><a href ="travel.html">travel-part-one</a></li>
-                <li><a href ="personal.html">travel-part-two</a></li>
+                <li><a  href ="index.html">travel route one</a></li>
+                <li><a  href ="travel.html">travel route two</a></li>
+                <li><a  class = "current" href ="personal.html">top favorite places</a></li>
             </ul>
         </nav>
     </header>
 
     <main id = "skip">
-    <h1>Arizona -- Wyoming</h1>
-    <div class = "gallery">
-        <div id = "container_gallery">
-            <img src="images/monutment_valley_sunrise.jpg" alt="something">
-            <img src="images/forrest_gump_point.jpg" alt="something">
-            <img src="images/double_arch.jpg" alt="something">
-            <img src="images/jackson_village.jpg" alt="something">
-            <img src="images/lone_house.jpg" alt="something">
-            <img src="images/blue_lake.jpg" alt="something">
-            <img src="images/color_rainbow.jpg" alt="something">
-            <img src="images/palette_spring.jpg" alt="something">
-            <img src="images/excelsior_geyser.jpg" alt="something">
+    <h1>my top favorite scenery places</h1>
+        <div class = "gallery">
+            <a href = "images/antelope_canyon_color.jpg" target = "_blank" 
+            data-lightbox = "sunrise" 
+            data-title = "Antelop Canyon"
+            data-alt = "National Park">
+                <img src="images/antelope_canyon_color.jpg"  alt="something" tabindex="0">
+            </a> 
+            
+            <a href ="images/yosemite.jpg" target="_blank"
+            data-lightbox="blue sky"
+            data-title="a disc cloud in mountain"
+            data-alt="Yosemite">
+                <img src="images/yosemite.jpg" alt="something" tabindex="0">
+            </a>
+
+            <a href ="images/monutment_valley_sunrise.jpg" target="_blank"
+            data-lightbox="mounment valley"
+            data-title="Sunrise"
+            data-alt="Olija Mounment Valley">
+                <img src="images/monutment_valley_sunrise.jpg" alt="something" tabindex="0">
+            </a>
+
+            <a href ="images/RVcamp_lakeIdaho.jpg" target="_blank"
+            data-lightbox="camp lake"
+            data-title="camping by the lake"
+            data-alt="lake Idaho">
+                <img src="images/RVcamp_lakeIdaho.jpg" alt="something" tabindex="0">
+            </a>
+        
+            <a href="images/lake_village.jpg" target="_blank"
+            data-lightbox="clear water by the lake"
+            data-title="the clearest lake i've seen"
+            data-alt="lake village in yosemite">
+                <img src="images/lake_village.jpg" alt="something" tabindex="0">
+            </a>
+           
+            <a href="images/moon_lake.jpg" target="_blank"
+            data-lightbox="the lake is a shape of a moon"
+            data-title="the sunset by moonlake"
+            data-alt="the end trip in yosemite">
+                <img src="images/moon_lake.jpg" alt="something" tabindex="0">
+            </a>
+           
+            <a href="images/jackson_village.jpg" target="_blank"
+            data-lightbox="stop by village before entering Yellowstone"
+            data-title="an arch made of deer horn"
+            data-alt="cool small village, its very tourist">
+                <img src="images/jackson_village.jpg" alt="something" tabindex="0">
+            </a>
+            
+            <a href="images/blue_lake.jpg" target="_blank"
+            data-lightbox="vast lake in shade of blue"
+            data-title="bluest lake ever"
+            data-alt="the view was beautiful">
+                <img src="images/blue_lake.jpg" alt="something" tabindex="0">
+            </a>
+            
+            <a href="images/mammoth_spring.jpg" target="_blank"
+            data-lightbox="mammoth spring in yosemite"
+            data-title="woke up 6:30 to see the view"
+            data-alt="the mist was warm and pretty to see">
+                <img src="images/mammoth_spring.jpg" alt="something" tabindex="0">
+            </a>
+            
         </div>
-    </div>
     </main>
-</body>
+            <script src="dist/js/lightbox-plus-jquery.js"></script>
+            <footer>
+                <p>University of Michigan School of Information <br/>
+                &copy; Elaine Wu - 2022</p>
+            </footer>
+    </body>
+
+    </html>
+
