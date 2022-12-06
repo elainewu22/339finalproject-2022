@@ -266,8 +266,8 @@ img:hover{
 
 /* media query 2 */
 @media screen and (min-width:1000px){
-    .head2{
-        display: block;
+    .header2{
+
         text-align: right;
     }
     .skip{
