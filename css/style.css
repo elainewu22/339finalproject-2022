@@ -44,11 +44,13 @@ h2{
     text-align: center;
 }
 p{
-    display: block;
-    text-align: left;
+    margin-top: 10px;
+    line-height: 1.5;
+    margin-bottom: 5px;
     
 }
 body{
+    /* margin: 0 10px; */
     background-image:linear-gradient(to right, lightblue, rgb(143, 207, 230), rgb(54, 100, 217));
 }
 
